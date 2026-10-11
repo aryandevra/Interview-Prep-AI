@@ -2,6 +2,7 @@
   "name": "Interview-Prep-AI-client",
   "private": true,
   "version": "0.0.0",
+  "description": "A React client for the Interview-Prep-AI application",
   "type": "module",
   "scripts": {
     "dev": "vite",

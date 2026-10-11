@@ -6,7 +6,7 @@ A full-stack web application that helps candidates prepare for job interviews. U
 
 ## 🚀 Live Demo
 
-🔗 https://interview-prep-ai24.vercel.app/
+🔗 https://interview-prep-ai24.vercel.app
 
 ---
 

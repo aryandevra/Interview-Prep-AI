@@ -2,7 +2,7 @@
   "name": "Interview-Prep-AI-server",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "An Express server for the Interview-Prep-AI application",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

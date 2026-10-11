@@ -130,9 +130,10 @@ const Navbar = ({ user, onLogout }) => {
                     to={to}
                     onClick={closeMenu}
                     className={({ isActive }) =>
-                      `flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${isActive
-                        ? 'bg-indigo-50 text-indigo-700'
-                        : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
+                      `flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                        isActive
+                          ? 'bg-indigo-50 text-indigo-700'
+                          : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                       }`
                     }
                   >
