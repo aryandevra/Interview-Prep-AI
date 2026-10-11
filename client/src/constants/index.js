@@ -1,5 +1,10 @@
+const rawApiBaseUrl = import.meta.env.VITE_API_BASE_URL?.trim();
+
 export const API_BASE_URL = String(
-  import.meta.env.VITE_API_BASE_URL || '/api/v1'
+  rawApiBaseUrl
+    ? rawApiBaseUrl.replace(/\/+$/, '') +
+        (rawApiBaseUrl.endsWith('/api/v1') ? '' : '/api/v1')
+    : '/api/v1'
 );
 
 export const MAX_RESUME_SIZE = 3 * 1024 * 1024;
